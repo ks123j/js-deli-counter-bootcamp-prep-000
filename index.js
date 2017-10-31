@@ -32,7 +32,7 @@ function currentLine(line) {
     return 'The line is currently empty.';
   } else {
     var output1 = 'The line is currently: ';
-    var output2 = [];
+    // var output2 = [];
     for(var i = 0; i < line.length; i++) {
       output1 += `${i+1}. ${line[i]}`;
       if (i < line.length - 1) {
