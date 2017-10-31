@@ -36,7 +36,8 @@ function currentLine(line) {
     for(var i = 0; i<line.length; i++) {
       output1.push(`${i+1}. ${line[i]}`);
     }
-    output2.push();
+    output2.push(`The line is currently: ${output1}`);
+    return output2;
   }
-  
+
 }
