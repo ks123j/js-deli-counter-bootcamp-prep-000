@@ -34,7 +34,7 @@ function currentLine(line) {
     var output1 = [];
     var output2 = [];
     for(var i = 0; i < line.length; i++) {
-      output1.push(` ${i+1}. ${line[i]}`);
+      output1.push(`${i+1}. ${line[i]}`);
     }
     output2.push(`The line is currently: ${output1.join(', ')}`);
     return output2;
