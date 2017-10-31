@@ -30,23 +30,13 @@ function nowServing(katzDeliLine) {
 function currentLine(line) {
   if (line.length == 0) {
     return ("The line is currently empty.");
+  } else {
+    var output1 = [];
+    var output2 = [];
+    for(var i = 0; i<line.length; i++) {
+      output1.push(`${i+1}. ${line[i]}`);
+    }
+    output2.push();
   }
   
 }
-
-  //function nowServing(katzDeliLine) {
-    //for (var i = 0; i < katzDeliLine.length; i++) {
-    //var m = katzDeliLine.shift();
-    //return (`Currently serving ${m}`);
-  //}
-
-  //katzDeliLine.shift();
-  //return katzDeliLine;
-
-
-
-
-
-//var i = 0;
-//while ( i < katzDeliLine.length) {
-//i++;
